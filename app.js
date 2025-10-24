@@ -189,17 +189,17 @@
 //  changcolor()
 
 function checkAgreement() {
-  // Get the checkbox element
+  
   const checkbox = document.querySelector("#agree");
 
-  // Get the paragraph where result will be shown
+  
   const result = document.querySelector("#result");
 
-  // Check if the box is checked
+  
   if (checkbox.checked) {
-    result.innerHTML = "Agreed ✅";
+    result.innerHTML = "Agreed ";
   } else {
-    result.innerHTML = "Not Agreed ❌";
+    result.innerHTML = "Not Agreed ";
   }
 } 
 
